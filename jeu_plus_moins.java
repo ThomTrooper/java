@@ -3,8 +3,6 @@ import java.util.Random;
 public class Main {
     public static void main(String[] args) {
         Scanner x=new Scanner(System.in);
-        //System.out.println("Veuillez saisir un nombre :");
-        //String variable=x.next();
         Random random = new Random();
         int nbr_random = random.nextInt(10);
         int compteur = 0;
